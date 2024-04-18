@@ -1,0 +1,122 @@
+{
+    "acquisition_software": "pychron 20.1.1",
+    "aliquot": 2,
+    "analysis_type": "unknown",
+    "analyst_name": "",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.1",
+    "comment": "well 10",
+    "commit": "4c1a45ef948f68ab0e0c3b6abc3ea95b224e7e92",
+    "conditionals": null,
+    "data_reduction_software": "pychron 20.1.1",
+    "detectors": {
+        "AX": {
+            "deflection": 150.0,
+            "gain": 1.0228602
+        },
+        "CDD": {
+            "deflection": 130.0,
+            "gain": 0.0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 1.0
+        },
+        "H2": {
+            "deflection": 80.0,
+            "gain": 1.0107485
+        },
+        "L1": {
+            "deflection": 320.0,
+            "gain": 1.0181743
+        },
+        "L2": {
+            "deflection": 650.0,
+            "gain": 1.03395
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [],
+        "lab_pneumatics": [],
+        "lab_temperatures": []
+    },
+    "experiment_queue_name": "20240417",
+    "experiment_type": "Ar/Ar",
+    "extraction": "argus_CO2analysis.py",
+    "grainsize": "",
+    "hops": "",
+    "identifier": "2672",
+    "increment": 13,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "UA009",
+    "irradiation_level": "D",
+    "irradiation_position": 6,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "00000"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "latitude": "",
+    "lithology": "",
+    "lithology_class": "",
+    "lithology_group": "",
+    "lithology_type": "",
+    "longitude": "",
+    "mass_spectrometer": "argus",
+    "material": "",
+    "measurement": "argus_unknown600_180.py",
+    "post_equilibration": "argus_pump_v1_ion only.py",
+    "post_measurement": "argus_pump_ms.py",
+    "principal_investigator": "",
+    "project": "",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Zircon",
+    "rlocation": "---",
+    "sample": "Mt. Dromedary",
+    "source": {
+        "emission": 452.297,
+        "trap": 198.706
+    },
+    "spec_sha": "2f144d121b8af9453d0fd2fdc1c466473ab33cd1",
+    "timestamp": "2024-04-18T00:58:34.172382",
+    "tripped_conditional": null,
+    "unit": "---",
+    "username": "",
+    "uuid": "4a80cdce-521e-46d5-8ce6-63ec06071ce8",
+    "whiff_result": null
+}
